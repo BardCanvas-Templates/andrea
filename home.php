@@ -83,7 +83,8 @@ header("Content-Type: text/html; charset=utf-8"); ?>
 </head>
 <body data-orientation="landscape" data-viewport-class="0" <?=$template->get("additional_body_attributes")?>
       data-page-tag="<?= $template->get("page_tag") ?>" class="home"
-      data-is-mobile="<?= is_mobile() ? "true" : "false" ?>">
+      data-is-mobile="<?= is_mobile() ? "true" : "false" ?>"
+      data-is-known-user="<?= $account->_exists ? "true" : "false" ?>">
 
 <div id="body_wrapper">
     
