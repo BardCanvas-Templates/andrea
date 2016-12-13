@@ -1,15 +1,8 @@
-/**
- * Posts styles, for BardCanvas
- *
- * @package    HNG2
- * @subpackage core
- * @author     Alejandro Caballero - lava.caballero@gmail.com
- */
 
 /* Slider, for the home page */
 
 #posts_slider {
-    font-family: 'Roboto Condensed', 'Arial Narrow', sans-serif;
+    font-family:         'Archivo Narrow', 'Arial Narrow', sans-serif;
     margin-bottom: 20px; background-color: white;
     -webkit-box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.25);
     -moz-box-shadow:    1px 1px 5px 0 rgba(0, 0, 0, 0.25);
@@ -41,7 +34,7 @@
 
 /* Posts */
 
-#posts_pagination             { font-family: 'Lora', sans-serif; font-size: 14pt; line-height: 1em; }
+#posts_pagination             { font-family: 'Yanone Kaffeesatz', 'Arial Narrow', sans-serif; font-size: 14pt; line-height: 1em; }
 #posts_pagination a           { text-decoration: none; }
 #posts_pagination a[disabled] { cursor: default; color:  grey; }
 
@@ -77,8 +70,8 @@ article.single_post.reviewing { background-color: #ffe3e6; }
 
 /* Single post overrides */
 
-.single_post h1           { font-size: 18pt; line-height: 20pt; }
-.single_post h1 .emojione { height: 18pt;  }
+.single_post h1           { font-size: 24pt; line-height: 26pt; }
+.single_post h1 .emojione { height: 20pt;  }
 .single_post .meta_box    { margin-bottom: 20px; }
 
 .single_post img   { max-width: 100%; }
@@ -408,7 +401,7 @@ article.special, .featured_post.special { border: 2px solid darkorange; border-l
 
 /* Post comments on indexes */
 
-ul.post_comments { padding-left: 22px; font-family: 'Roboto Condensed', 'Arial Narrow', sans-serif;
+ul.post_comments { padding-left: 22px; font-family: 'Archivo Narrow', 'Arial Narrow', sans-serif;
                    font-size: 11pt; line-height: 1.1em; margin-top: 10px !important; }
 ul.post_comments .emojione { height: 1em; }
 ul.post_comments li img { max-width: 100%; }

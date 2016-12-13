@@ -1,15 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <template>
     
-    <name>Base template</name>
+    <name>Andrea</name>
     
-    <version>1.6.9</version>
+    <version>1.0</version>
     
     <description>
-        Distributed with BardCanvas.
+        Template suitable for magazine-styled blogs
     </description>
     
-    <group>BardCanvas</group>
+    <notes><![CDATA[
+        Base color: 00FF99 ~ Blueish green
+        Base left : 7EFF33 ~ Yellowish green
+        Base right: 33BAFF ~ Bluish cyan
+        Complement: FF5D33 ~ Red orange
+        
+        Fonts:
+        • Body:          Droid Serif
+        • Table cells:   Archivo Narrow
+        • Fixed width:   Space Mono
+        • Headings:      Yanone Kaffeesatz
+    ]]></notes>
+    
+    <group>Yokika</group>
     
     <tags>responsive, facebook clone, wordpress clone, mobile, desktop, multpile columns</tags>
     

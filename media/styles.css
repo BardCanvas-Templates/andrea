@@ -1,29 +1,22 @@
-/**
- * Base template - Base styles
- *
- * @package    HNG2
- * @subpackage core
- * @author     Alejandro Caballero - lava.caballero@gmail.com
- */
 
-@import 'https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i|Prompt:400,400i,700,700i|Roboto+Condensed:400,400i,700,700i|Roboto:400,400i,700,700i|Ubuntu+Mono:400,400i,700,700i&subset=latin-ext';
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow:400,400i,700,700i|Droid+Serif:400,400i,700,700i|Space+Mono:400,400i,700,700i|Yanone+Kaffeesatz:400,700&subset=latin-ext');
 
-body     { font-family: 'Prompt', sans-serif; font-size: 12pt; background-color: #E5E5E5; }
-th       { font-family: 'Roboto', sans-serif; font-size: 11pt; }
-td       { font-family: 'Roboto Condensed', 'Arial Narrow', sans-serif; font-size: 11pt; }
+body     { font-family: 'Droid Serif', serif; font-size: 12pt; background-color: #E5E5E5; }
+th       { font-family: 'Archivo Narrow', 'Arial Narrow', sans-serif; font-size: 11pt; }
+td       { font-family: 'Archivo Narrow', 'Arial Narrow', sans-serif; font-size: 11pt; }
 #header  { font-family: Arial, Helvetica, sans-serif; font-size: 12pt; }
-#footer  { font-family: 'Roboto Condensed', 'Arial Narrow', sans-serif; font-size: 11pt; }
+#footer  { font-family: 'Archivo Narrow', 'Arial Narrow', sans-serif; font-size: 11pt; }
 #content { line-height: 1.2em; }
 
 .dropdown_menu { font-family: Arial, Helvetica, sans-serif; }
-body.popup { background-color: transparent; }
+body.popup     { background-color: transparent; }
 
-textarea, pre, .fixed_font, code { font-family: 'Ubuntu Mono', 'Lucida Console', 'Courier new', 'Courier', monospace; font-size: 10pt; }
-textarea.no_fw_font              { font-family: 'Prompt', sans-serif; font-size: 12pt; }
+textarea, pre, .fixed_font, code { font-family: 'Space Mono', 'Lucida Console', 'Courier new', 'Courier', monospace; font-size: 10pt; }
+textarea.no_fw_font              { font-family: 'Droid Serif', sans-serif; font-size: 12pt; }
 
-h1 { font-family: 'Lora', sans-serif; font-size: 14pt; line-height: 16pt; }
-h2 { font-family: 'Lora', sans-serif; font-size: 13pt; line-height: 15pt; }
-h3 { font-family: 'Lora', sans-serif; font-size: 12pt; line-height: 14pt; }
+h1 { font-family: 'Yanone Kaffeesatz', 'Arial Narrow', sans-serif; font-size: 20pt; line-height: 22pt; }
+h2 { font-family: 'Yanone Kaffeesatz', 'Arial Narrow', sans-serif; font-size: 19pt; line-height: 21pt; }
+h3 { font-family: 'Yanone Kaffeesatz', 'Arial Narrow', sans-serif; font-size: 18pt; line-height: 20pt; }
 
 h1 a.small { font-family: arial, helvetica, sans-serif; font-size: 12pt; font-weight: bold; }
 h1 a.small:before { content: '[' }
@@ -31,9 +24,9 @@ h1 a.small:after  { content: ']' }
 
 /* Forms */
 
-#post_form  textarea[name="title"]  { font-family: 'Lora', sans-serif;   font-size: 18pt; min-height: 34px; height: 34px; }
-#media_form textarea[name="title"]  { font-family: 'Lora', sans-serif;   font-size: 18pt; min-height: 34px; height: 34px; }
-#post_form textarea[name="excerpt"] { font-family: 'Prompt', sans-serif; font-size: 12pt; min-height: 30px; height: 30px; }
+#post_form  textarea[name="title"]  { font-family: 'Yanone Kaffeesatz', 'Arial Narrow', sans-serif;   font-size: 18pt; min-height: 34px; height: 34px; }
+#media_form textarea[name="title"]  { font-family: 'Yanone Kaffeesatz', 'Arial Narrow', sans-serif;   font-size: 18pt; min-height: 34px; height: 34px; }
+#post_form textarea[name="excerpt"] { font-family: 'Droid Serif', serif; font-size: 12pt; min-height: 30px; height: 30px; }
 
 body.mce-content-body { background-color: white; margin: 0 10px; }
 
@@ -127,8 +120,8 @@ h3 .emojione { height: 12pt; }
 
 .author_signature                         { margin-top: 20px; padding-top: 10px; padding-right: 20px;
                                             border-top: 2px solid silver; display: inline-block; width: auto;
-                                            font-family: 'Roboto', sans-serif; font-size: 11pt; line-height: normal; }
-body#tinymce[data-id="account_signature"] { font-family: 'Roboto', sans-serif; font-size: 11pt; line-height: normal; }
+                                            font-family: Arial, Helvetica, sans-serif; font-size: 11pt; line-height: normal; }
+body#tinymce[data-id="account_signature"] { font-family: Arial, Helvetica, sans-serif; font-size: 11pt; line-height: normal; }
 
 .author_signature *, body#tinymce[data-id="account_signature"] *                 { margin-top: 1px; margin-bottom: 1px; }
 .author_signature .emojione, body#tinymce[data-id="account_signature"] .emojione { height: 11pt; }
