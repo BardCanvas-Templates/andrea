@@ -66,6 +66,8 @@ header("Content-Type: text/html; charset=utf-8"); ?>
         <link rel="stylesheet" type="text/css" href="<?= $template->url ?>/media/right_sidebar_addon~v<?=$config->scripts_version?>.css">
     <? endif; ?>
     
+    <link rel="stylesheet" type="text/css" href="<?= $template->url ?>/media/colors~v<?=$config->scripts_version?>.css">
+    
     <!-- Always-on -->
     <? $template->render_always_on_files(); ?>
     

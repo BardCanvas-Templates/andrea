@@ -39,9 +39,10 @@
 #posts_pagination a[disabled] { cursor: default; color:  grey; }
 
 .posts_index article                          { margin-bottom: 20px; background-color: white;
-                                               -webkit-box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.25);
-                                               -moz-box-shadow:    1px 1px 5px 0 rgba(0, 0, 0, 0.25);
-                                               box-shadow:         1px 1px 5px 0 rgba(0, 0, 0, 0.25); }
+                                                border-top: 2px solid #FF5D33;
+                                               -webkit-box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+                                               -moz-box-shadow:    0 0 4px 0 rgba(0, 0, 0, 0.25);
+                                               box-shadow:         0 0 4px 0 rgba(0, 0, 0, 0.25); }
 .posts_index article h1                       { margin: 0; padding: 5px 10px; }
 .posts_index article .post_featured_image     { padding: 5px 10px; }
 .posts_index article .post_featured_image img { width: 100%; }

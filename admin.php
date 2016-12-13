@@ -59,6 +59,8 @@ header("Content-Type: text/html; charset=utf-8"); ?>
         <script type="text/javascript"          src="<?= $template->url ?>/media/left_sidebar_addon~v<?=$config->scripts_version?>.js"></script>
     <? endif; ?>
     
+    <link rel="stylesheet" type="text/css" href="<?= $template->url ?>/media/colors~v<?=$config->scripts_version?>.css">
+    
     <!-- Always-on -->
     <? $template->render_always_on_files(); ?>
     

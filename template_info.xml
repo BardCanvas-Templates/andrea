@@ -3,7 +3,7 @@
     
     <name>Andrea</name>
     
-    <version>1.0</version>
+    <version>1.1</version>
     
     <description>
         Template suitable for magazine-styled blogs
@@ -11,6 +11,7 @@
     
     <notes><![CDATA[
         Base color: 00FF99 ~ Blueish green
+        Headings:   00bf61 ~ Darker
         Base left : 7EFF33 ~ Yellowish green
         Base right: 33BAFF ~ Bluish cyan
         Complement: FF5D33 ~ Red orange
