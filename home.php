@@ -230,7 +230,7 @@ header("Content-Type: text/html; charset=utf-8"); ?>
                 <span class='fa fa-tachometer fa-fw'></span>" . number_format(memory_get_usage(true) / 1024 / 1024, 1) . "MiB
             ";
             if($config->display_performance_details && EMBED_INTERNALS)
-                echo "• <span class=\"fa fa-plus fa-fw pseudo_link\" onclick=\"$('.internals').show();\"></span>";
+                echo "<span class=\"fa fa-plus fa-fw pseudo_link\" onclick=\"$('.internals').show();\"></span>";
             ?>
         </div>
         
