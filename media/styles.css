@@ -20,6 +20,10 @@ h1 { font-family: 'Yanone Kaffeesatz', 'Arial Narrow', sans-serif; font-size: 20
 h2 { font-family: 'Yanone Kaffeesatz', 'Arial Narrow', sans-serif; font-size: 19pt; line-height: 21pt; }
 h3 { font-family: 'Yanone Kaffeesatz', 'Arial Narrow', sans-serif; font-size: 18pt; line-height: 20pt; }
 
+body.admin h1 { font-size: 17pt; line-height: 19pt; }
+body.admin h2 { font-size: 16pt; line-height: 18pt; }
+body.admin h3 { font-size: 15pt; line-height: 17pt; }
+
 h1 a.small { font-family: arial, helvetica, sans-serif; font-size: 12pt; font-weight: bold; }
 h1 a.small:before { content: '[' }
 h1 a.small:after  { content: ']' }

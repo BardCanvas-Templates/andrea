@@ -39,8 +39,8 @@ h1 a, h1 .pseudo_link, h2 a, h2 .pseudo_link, h3 a, h3 .pseudo_link { color: #00
 #header .main_menu_item.alerted       .fa.fa-border { border-color: maroon; }
 #header .main_menu_item.alerted:hover .fa.fa-border { border-color: red;    }
 
-#header .main_menu_item.submenu_visible              { color: black;   background-color: #00FF99; }
-#header .main_menu_item.submenu_visible:hover        { color: #00FF99; background-color: black;   }
+#header .main_menu_item.submenu_visible              { color: #00FF99; background-color: black; }
+#header .main_menu_item.submenu_visible:hover        { color: #00FF99; background-color: black; }
 
 #main_menu_trigger.open         { color: #00FF99; background-color: black; }
 
