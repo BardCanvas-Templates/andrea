@@ -2,8 +2,8 @@
 <template>
     
     <name>Andrea</name>
-    
-    <version>1.3.6</version>
+    <version>1.3.7</version>
+    <group>templates_basic</group>
     
     <description>
         Template suitable for magazine-styled blogs
@@ -22,8 +22,6 @@
         • Fixed width:   Space Mono
         • Headings:      Yanone Kaffeesatz
     ]]></notes>
-    
-    <group>Yokika</group>
     
     <tags>responsive, facebook clone, wordpress clone, mobile, desktop, multpile columns</tags>
     
