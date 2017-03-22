@@ -91,3 +91,7 @@ body.admin h3 { color: #00bf61; background-color: #F2FFAD; border-color: #3f7f23
 body.admin h1 a, body.admin h1 .pseudo_link { color: white;   }
 body.admin h2 a, body.admin h2 .pseudo_link { color: white;   }
 body.admin h3 a, body.admin h3 .pseudo_link { color: #33BAFF; }
+
+body.admin h1 a.framed_content, body.admin h1 .pseudo_link.framed_content { color: #33BAFF; }
+body.admin h2 a.framed_content, body.admin h2 .pseudo_link.framed_content { color: #33BAFF; }
+body.admin h3 a.framed_content, body.admin h3 .pseudo_link.framed_content { color: #33BAFF; }
