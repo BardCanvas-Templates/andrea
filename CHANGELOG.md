@@ -1,6 +1,10 @@
 
 # Andrea Template Change Log
 
+## [1.4.5] - 2017-04-14
+
+- Added extension point on user profile home.
+
 ## [1.4.4] - 2017-04-14
 
 - Added extension points
