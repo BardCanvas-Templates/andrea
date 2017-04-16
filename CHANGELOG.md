@@ -1,7 +1,7 @@
 
 # Andrea Template Change Log
 
-## [1.4.6] - 2017-04-17
+## [1.4.6] - 2017-04-15
 
 - Added extension point on comments for single posts.
 
