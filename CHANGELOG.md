@@ -1,6 +1,10 @@
 
 # Andrea Template Change Log
 
+## [1.6.2] - 2017-05-16
+
+- Added extension point after post index loop end.
+
 ## [1.6.1] - 2017-05-13
 
 - Removed deprecated div.
