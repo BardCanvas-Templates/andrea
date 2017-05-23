@@ -1,6 +1,10 @@
 
 # Andrea Template Change Log
 
+## [1.7.0] - 2017-05-23
+
+- Simplified PM links/buttons rendering method.
+
 ## [1.6.3] - 2017-05-17
 
 - Added support for contact module option to avoid anonymous guests to send email to registered users.
