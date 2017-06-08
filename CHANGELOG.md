@@ -1,6 +1,10 @@
 
 # Andrea Template Change Log
 
+## [1.8.1] - 2017-06-08
+
+- Bumped TinyMCE loading version.
+
 ## [1.8.0] - 2017-06-08
 
 - Refactored footer to allow customization.
