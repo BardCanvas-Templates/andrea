@@ -1,6 +1,10 @@
 
 # Andrea Template Change Log
 
+## [1.8.0] - 2017-06-08
+
+- Refactored footer to allow customization.
+
 ## [1.7.1] - 2017-05-29
 
 - Fxed issue with parents and added extension point on comments for single post.
