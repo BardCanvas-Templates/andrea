@@ -1,6 +1,10 @@
 
 # Andrea Template Change Log
 
+## [1.8.2] - 2017-06-27
+
+- Added complementary info and screenshot.
+
 ## [1.8.1] - 2017-06-08
 
 - Bumped TinyMCE loading version.
