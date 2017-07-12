@@ -1,6 +1,10 @@
 
 # Andrea Template Change Log
 
+## [1.8.4] - 2017-07-11
+
+- Hidden pagination helpers for post indexes with few items.
+
 ## [1.8.3] - 2017-07-07
 
 - CSS tuning.
