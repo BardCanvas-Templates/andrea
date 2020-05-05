@@ -1,6 +1,10 @@
 
 # Andrea Template Change Log
 
+## [1.8.8] - 2020-05-04
+
+- Added extension points on comments for single post segment.
+
 ## [1.8.7] - 2017-12-14
 
 - Added TinyMCE support to popup layout.
