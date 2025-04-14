@@ -1,6 +1,10 @@
 
 # Andrea Template Change Log
 
+## [1.8.10] - 2025-04-13
+
+- Added support for hiding restricted tabs on the user profile home.
+
 ## [1.8.9] - 2021-04-20
 
 - Tuned the contact section on the user profile home.
